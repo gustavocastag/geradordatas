@@ -1,4 +1,4 @@
-# Geradores
+# Gerador de datas
 
 Gerador de datas em python 3
 
