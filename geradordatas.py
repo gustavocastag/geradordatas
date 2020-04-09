@@ -1,5 +1,3 @@
-y = 0
-
 print ('#'*10)
 print ('\033[41mATENÇÃO\033[m: Os valores numericos deste programa não são alteraveis quando o script é executado, portanto, ele ira gerar apenas datas entre 01/01/1950 a 31/12/2020, então qualquer alteração podera ser feita no script.')
 print (' ')
@@ -30,77 +28,85 @@ Ano=('1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960
 Anoa=('50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17','18','19','20')
 
 if r == 1:
-    while y != '31122020':
-        for i1 in (Dia):
-            for i2 in (Mes):
-                for i3 in (Ano):
-                    y=(i1+i2+i3)
-                    arquivo.write(y+'\n')
-                    print(y)
-                    if(y=='31122020'):
-                        print('Salvo como',nome)
-                        arquivo.close()
-                        exit()
+
+    for i1 in (Dia):
+        for i2 in (Mes):
+            for i3 in (Ano):
+
+                y=(i1+i2+i3)
+                arquivo.write(y+'\n')
+                print(y)
+
+    print('Salvo como',nome)
+    arquivo.close()
+    exit()
 
 if r == 3:
-    while y != '31/12/2020':
-        for i1 in (Dia):
-            for i2 in (Mes):
-                for i3 in (Ano):
-                    y=(i1+'/'+i2+'/'+i3)
-                    arquivo.write(y+'\n')
-                    print(y)
-                    if(y=='31/12/2020'):
-                        print('Salvo como',nome)
-                        arquivo.close()
-                        exit()
+
+    for i1 in (Dia):
+        for i2 in (Mes):
+            for i3 in (Ano):
+
+                y=(i1+'/'+i2+'/'+i3)
+                arquivo.write(y+'\n')
+                print(y)
+
+    print('Salvo como',nome)
+    arquivo.close()
+    exit()
 
 if r == 2:
-    while y != '12312020':
-        for i1 in (Mes):
-            for i2 in (Dia):
-                for i3 in (Ano):
-                    y=(i1+i2+i3)
-                    arquivo.write(y+'\n')
-                    print(y)
-                    if(y=='12312020'):
-                        print('Salvo como',nome)
-                        arquivo.close()
-                        exit()
+
+    for i1 in (Mes):
+        for i2 in (Dia):
+            for i3 in (Ano):
+
+                y=(i1+i2+i3)
+                arquivo.write(y+'\n')
+                print(y)
+
+    print('Salvo como',nome)
+    arquivo.close()
+    exit()
 
 if r == 4:
-    while y != '12/31/2020':
-        for i1 in (Mes):
-            for i2 in (Dia):
-                for i3 in (Ano):
-                    y=(i1+'/'+i2+'/'+i3)
-                    arquivo.write(y+'\n')
-                    print(y)
-                    if(y=='12/31/2020'):
-                        print('Salvo como',nome)
-                        
+
+    for i1 in (Mes):
+        for i2 in (Dia):
+            for i3 in (Ano):
+
+                y=(i1+'/'+i2+'/'+i3)
+                arquivo.write(y+'\n')
+                print(y)
+
+    print('Salvo como',nome)
+    arquivo.close()
+    exit()
+
 if r == 5:
-    while y != '31/12/20':
-        for i1 in (Dia):
-            for i2 in (Mes):
-                for i3 in (Anoa):
-                    y=(i1+'/'+i2+'/'+i3)
-                    arquivo.write(y+'\n')
-                    print(y)
-                    if(y=='31/12/20'):
-                        print('Salvo como',nome)
-                        arquivo.close()
-                        exit()
+
+    for i1 in (Dia):
+        for i2 in (Mes):
+            for i3 in (Anoa):
+
+                y=(i1+'/'+i2+'/'+i3)
+                arquivo.write(y+'\n')
+                print(y)
+
+    print('Salvo como',nome)
+    arquivo.close()
+    exit()
 
 if r == 6:
-    while y != '12/31/20':
-        for i1 in (Mes):
-            for i2 in (Dia):
-                for i3 in (Anoa):
-                    y=(i1+'/'+i2+'/'+i3)
-                    arquivo.write(y+'\n')
-                    print(y)
-                    if(y=='12/31/20'):
-                        print('Salvo como',nome)
-                        arquivo.close()
-                        exit()
+
+    for i1 in (Mes):
+        for i2 in (Dia):
+            for i3 in (Anoa):
+
+                y=(i1+'/'+i2+'/'+i3)
+                arquivo.write(y+'\n')
+                print(y)
+
+    print('Salvo como',nome)
+    arquivo.close()
+    exit()
