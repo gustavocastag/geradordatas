@@ -21,9 +21,9 @@ Quando o script for iniciado uma lista com 6 opções como esta sera exibida:
         
 Tudo o que voce precisa fazer é selecionar o formato de data e na proxima etapa digitar um nome ou caminho que o arquivo sera salvo.
 
-(**obs:** o programa gera apenas combinações com mais de 8 digitos, que por coincidencia é o numero minimo de caracteres que uma senha de wifi de rede domestica tem...)
-
 Simples né?
+
+(**obs:** o programa gera apenas combinações com mais de 8 digitos, que por coincidencia é o numero minimo de caracteres que uma senha de wifi de rede domestica tem...)
 
 **Acompanhe meus outros projetos em**
 
