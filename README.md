@@ -1,6 +1,6 @@
 # Gerador de datas
 
-## Gerador de datas em python 3
+### Gerador de datas em python 3
 
 Este programa ira gerar arquivos com todas as combinações de datas possiveis, voce podera selecionar a formatação da data em uma interface no terminal, as opções incluem, datas normais (ddmmaaaa), com separador (dd/mm/aaaa), com separador abreviado (dd/mm/aa) e os formatos ingleses das mesmas datas (mm/dd/aaaaa), em seguida voce podera nomear o arquivo que sera gerado e esperar o programa processar a lista de datas.
 ***
